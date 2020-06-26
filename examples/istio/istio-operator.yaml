@@ -1,0 +1,12 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: istio-operator
+  namespace: istio-system
+spec:
+  releaseName: istio-operator
+  chart:
+    repository: https://storage.googleapis.com/istio-release/releases/1.6.3/charts
+    name: istio-operator
+    version: 1.6.3
