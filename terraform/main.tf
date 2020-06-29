@@ -44,9 +44,3 @@ module "git" {
   repository = var.git_repository
   public_key = module.flux.git_public_key
 }
-
-module "dns" {
-  source = "./modules/dns"
-
-  dns_zone = var.dns_zone
-}

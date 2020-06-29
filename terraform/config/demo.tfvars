@@ -1,6 +1,5 @@
 # Project
 project = "operating-realm-241007"
-dns_zone = "stawik-zone"
 
 # Git config
 git_repository = "hulk0301/gcp-kubernetes-canary-gitops-demo"

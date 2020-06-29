@@ -1,3 +1,4 @@
 secrets.txt
 credentials.json
 .terraform
+*.tfstate
