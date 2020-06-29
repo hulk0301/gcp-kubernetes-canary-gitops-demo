@@ -9,3 +9,4 @@ spec:
   values:
     prometheusOperator:
       enabled: true
+      createPrometheusResource: true
