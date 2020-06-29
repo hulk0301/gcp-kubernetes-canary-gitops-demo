@@ -6,3 +6,6 @@ metadata:
   name: demo-istiocontrolplane
 spec:
   profile: default
+  values:
+    prometheusOperator:
+      enabled: true
