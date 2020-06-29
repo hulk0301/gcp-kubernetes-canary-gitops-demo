@@ -7,6 +7,9 @@ metadata:
 spec:
   releaseName: istio-operator
   chart:
-    repository: https://storage.googleapis.com/istio-release/releases/1.6.3/charts
-    name: istio-operator
-    version: 1.6.3
+    git: git@github.com:hulk0301/gcp-kubernetes-canary-gitops-demo.git
+    ref: develop
+    path: helm/charts/istio-operator
+  values:
+    operatorNamespace: istio-operator
+    istioNamespace: istio-system
