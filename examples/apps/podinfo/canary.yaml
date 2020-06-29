@@ -25,6 +25,8 @@ spec:
     # Istio gateways (optional)
     gateways:
     - public-gateway.istio-system.svc.cluster.local
+    hosts:
+    - '*'
     # Istio traffic policy (optional)
     trafficPolicy:
       tls:
